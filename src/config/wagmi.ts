@@ -4,7 +4,7 @@ import { TRANSPORTS } from './chains'
 
 export const wagmiConfig = getDefaultConfig({
   appName: 'WalletBoard',
-  projectId: '3a8170812b534d0ff9d794f19a901d64',
+  projectId: '072de7d3-7101-4b6a-9b34-633c6bc0afcd',
   chains: [mainnet, polygon],
   transports: TRANSPORTS,
 })
